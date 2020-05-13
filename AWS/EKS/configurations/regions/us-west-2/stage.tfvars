@@ -1,0 +1,17 @@
+environment = "stage"
+region = "us-west-2"
+s3_bucket = "yusufi-terraform-eks"                #Will be used to set backend.tf
+s3_folder_project = "application"                 #Will be used to set backend.tf
+s3_folder_region = "us-west-2"                    #Will be used to set backend.tf
+s3_folder_type = "state"                          #Will be used to set backend.tf
+s3_tfstate_file = "infrastructure.tfstate.json"   #Will be used to set backend.tf
+vpc_id = "vpc-043f537a1b919a6e7" 
+subnet1 = "subnet-0333b45be7d3b40b1"
+subnet2 = "subnet-04ec1f8ea949e5ca1"
+subnet3 = "subnet-0587672ccbc5188e0"
+cluster_name = "my-cluster1-stage"
+instance_type = "t2.micro"
+asg_max_size = "48" 
+asg_min_size = "3"
+asg_desired_capacity = "3"
+cluster_version = "1.14"
