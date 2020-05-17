@@ -24,7 +24,7 @@ module "my-cluster" {
       
     ] 
 
-  vpc_id = var.vpc_id
+  vpc_id = "var.vpc_id" {
   worker_groups = [{
     instance_type = var.instance_type
     asg_max_size = var.asg_max_size

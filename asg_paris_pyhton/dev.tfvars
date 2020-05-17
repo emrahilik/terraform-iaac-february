@@ -1,0 +1,5 @@
+region = "us-east-2"
+min_size = "1"
+max_size = "128"
+desired_capacity = "1"
+image_owner = " "
